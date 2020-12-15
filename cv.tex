@@ -1,0 +1,155 @@
+%CV Template by skagur-k
+%LaTeX
+%Date: 4/6/2018 (Updated 2020)
+
+\documentclass{cvlayout}
+\title{Curricular Vitae}
+\author{Name}
+\date{Dare}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,       % false: boxed links; true: colored link
+    urlcolor=black           % color of external links
+}
+
+\begin{document}
+
+\maketitle
+
+%--------------------------------------%
+%-------------Upper Section--------------%
+%--------------------------------------%
+\begin{center}
+    \normalsize
+    {\bfseries Email: }
+    {\href{mailto:email@gmail.com}
+    {email@gmail.com}} |
+    {\bfseries Mobile: }{Number}
+\end{center}
+
+%--------------------------------------%
+%-------------LEFT COLUMN--------------%
+%--------------------------------------%
+
+\begin{minipage}[t]{0.72\textwidth}
+
+%--------------------------------------%
+%-------------EDUCATION----------------%
+%--------------------------------------%
+\section{Education}
+\edentry
+{Name}
+{Location}
+{Duration/Extra info}
+{{\bfseries Relevant Info}  Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam vestibulum pellentesque tortor ut viverra. Proin porttitor eleifend bibendum.}
+
+\vspace{-15pt}
+
+%--------------------------------------%
+%-----------WORK EXPERIENCE------------%
+%--------------------------------------%
+\section{Work Experience}
+
+\workentry
+{Workplace 1}
+{Duration}
+{Location}
+{Position}
+
+\vspace{-18pt}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item[--] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum pellentesque tortor ut viverra. Proin porttitor eleifend bibendum.
+\end{itemize}
+
+\workentry
+{Workplace 2}
+{Duration}
+{Location}
+{Position}
+
+\vspace{-18pt}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item[--] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum pellentesque tortor ut viverra. Proin porttitor eleifend bibendum.
+\end{itemize}
+
+\workentry
+{Workplace 3}
+{Duration}
+{Location}
+{Position}
+
+\vspace{-18pt}
+\begin{itemize}
+\setlength\itemsep{0em}
+
+\item[--] Vivamus vitae turpis non lacus condimentum elementum vel a augue. Donec eget est a elit efficitur dapibus. Praesent facilisis semper ligula vel viverra.
+\end{itemize}
+
+%--------------------------------------%
+%-------------RIGHT COLUMN (SKILLS)----%
+%--------------------------------------%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.23\textwidth}
+\raggedright
+\section{\normalsize \bfseries Technical Skills}
+\skillentry{Programming}{C, Java, Python, Javascript}
+\skillentry{Data Analysis}{Numpy, Pandas, Matplot, Data Visualization, }
+\skillentry{Others}{SQL, Microsoft Office Suites, Linux, Github}
+
+\section{\normalsize \bfseries Other Skills}
+\skillentry{English, Korean}{Native Proficiency}
+\skillentry{Mandarin Chinese}{Conversational Proficiency}
+
+\section{\normalsize \bfseries Contact}
+\skillentry{LinkedIn}{\href{https://www.linkedin.com/in/id}{Username}}
+\skillentry{GitHub}{\href{https://github.com/Username}{Username}}
+
+\end{minipage}
+
+
+%--------------------------------------%
+%-------------BOTTOM(PROJECTS)---------%
+%--------------------------------------%
+
+\vspace{25pt}
+\begin{minipage}[t]{0.95\textwidth}
+
+\section{Projects}
+
+\workentry
+{Project Name}
+{Year}
+{Type of Project}
+{Type of Skills used}
+
+\vspace{-15pt}
+\begin{itemize}
+    \setlength\itemsep{0em}
+    \item[--] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum pellentesque tortor ut viverra. Proin porttitor eleifend bibendum.
+    \item[--] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum pellentesque tortor ut viverra. Proin porttitor eleifend bibendum.
+
+\end{itemize}
+\vspace{6pt}
+
+
+\workentry
+{Project Name}
+{Year}
+{Type of Project}
+{Type of Skills used}
+
+\vspace{-15pt}
+\begin{itemize}
+    \setlength\itemsep{0em}
+    \item[--] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum pellentesque tortor ut viverra. Proin porttitor eleifend bibendum.
+    \item[--] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum pellentesque tortor ut viverra. Proin porttitor eleifend bibendum.
+\end{itemize}
+
+
+\end{minipage}
+\end{document}
